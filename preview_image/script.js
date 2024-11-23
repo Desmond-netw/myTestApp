@@ -19,5 +19,5 @@ function previewImage(event) {
     } else {
         //keep container empty
         showImage.innerHTML = 'No image selected';
-    }
-}
+    };
+};
