@@ -11,6 +11,7 @@ function previewImage(event) {
             img.style.width = '100%';
             img.style.height = '100%';
             img.style.objectFit = 'contain';
+            //check if the showImage container is empty.
             showImage.innerHTML = '';
             showImage.appendChild(img);
         };
